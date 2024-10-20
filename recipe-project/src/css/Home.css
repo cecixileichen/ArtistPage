@@ -21,6 +21,11 @@
 	line-height: 0.4;
 }
 
+.Home-head-title p{
+	color: white;
+	font-size: 5vh;
+}
+
 .Home-recipe-page{
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +36,7 @@
 
 .Home-recipe-card{
     width: 250px;
+	height: auto;
 }
 
 .Home-recipe-image{
@@ -39,6 +45,10 @@
 
 .Home-recipe-title{
     font-size: 20px;
+}
+
+.Home-recipe-title span:hover {
+	text-decoration: underline;
 }
 
 .Home-recipe-text{

@@ -1,3 +1,12 @@
 .App{
 	font-family: "Courier New";
 }
+
+a {
+	text-decoration: none;  /* Removes the underline */
+	color: inherit;         /* Inherits the text color from the parent, which is likely black */
+  }
+
+.Page-bottom{
+	height: 10vh;
+}
