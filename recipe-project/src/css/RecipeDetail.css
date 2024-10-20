@@ -1,0 +1,43 @@
+.Recipe-detail{
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 2vh;
+}
+
+.Recipe-detail-image{
+    margin-top: 10%;
+    width: 50vh;
+}
+
+.Recipe-detail-title{
+    margin-top: 5vh;
+    font-size: 3vh;
+    line-height: 0.1px;
+}
+
+.Recipe-detail-author{
+    margin-bottom: 10vh;
+}
+
+.Recipe-detail-story{
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 15vh;
+    text-align: center;
+}
+
+.Recipe-detail-sub-title{
+    font-size: 3vh;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+
+.Recipe-detail-text{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+}
