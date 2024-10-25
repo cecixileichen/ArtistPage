@@ -3,19 +3,19 @@ name: CI - Run Jest Tests
 on: [push, pull_request]
 
 jobs:
-	test:
-		runs-on: ubuntu-latest
-		steps:
-			- name: Checkout code
-			  uses: actions/checkout@v2
+  test:
+    runs-on: ubuntu-latest
 
-			- name: Set up Node.js
-			  uses: actions/setup-node@v2
-			  with:
-				  node-version: '14'  # or '16', depending on your project's Node version
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-			- name: Install dependencies
-			  run: npm install
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' 
+      - name: Install dependencies
+        run: npm install
 
-			- name: Run Jest tests
-			  run: npm test -- --watchAll=false
+      - name: Run Jest tests
+        run: npm test -- --watchAll=false
