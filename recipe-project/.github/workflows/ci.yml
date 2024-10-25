@@ -19,3 +19,5 @@ jobs:
 
       - name: Run Jest tests
         run: npm test -- --watchAll=false
+
+		# test if github action works
